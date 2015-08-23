@@ -40,7 +40,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CallChain.cs" />
+    <Compile Include="DeepInlining.cs" />
+    <Compile Include="InlinedToMultipleSources.cs" />
     <Compile Include="MultipleReturns.cs" />
+    <Compile Include="NameCollisions\WithField.cs" />
+    <Compile Include="NameCollisions\WithLocalVariable.cs" />
+    <Compile Include="NameCollisions\WithParameter.cs" />
+    <Compile Include="NameCollisions\WithProperty.cs" />
+    <Compile Include="Nesting\InWhileLoopHeader.cs" />
+    <Compile Include="PartiallyInlined.cs" />
     <Compile Include="Recursion.cs" />
     <Compile Include="SimpleCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
