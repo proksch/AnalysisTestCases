@@ -6,17 +6,17 @@
         {
             var o = new object();
             o.GetHashCode();
-            P(o);
+            H(o);
         }
 
         public void EP2()
         {
             var o = new object();
             o.GetType();
-            P(o);
+            H(o);
         }
 
-        private void P(object o)
+        private void H(object o)
         {
             o.ToString();
         }

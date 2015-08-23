@@ -4,14 +4,14 @@
     {
         private object o;
 
-        public void M()
+        public void EP()
         {
             o.ToString();
-            N();
+            H();
             o.GetHashCode();
         }
 
-        private void N()
+        private void H()
         {
             var o = new object();
             o.GetType();

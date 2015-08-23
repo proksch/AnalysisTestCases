@@ -2,14 +2,14 @@
 {
     internal class WithParameter
     {
-        public void M(object o)
+        public void EP(object o)
         {
             o.ToString();
-            N();
+            H();
             o.GetHashCode();
         }
 
-        private void N()
+        private void H()
         {
             var o = new object();
             o.GetType();

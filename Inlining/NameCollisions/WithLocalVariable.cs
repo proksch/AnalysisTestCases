@@ -2,15 +2,15 @@
 {
     internal class WithLocalVariable
     {
-        public void M()
+        public void EP()
         {
             var o = new object();
             o.ToString();
-            N();
-            o.GetHashCode()
+            H();
+            o.GetHashCode();
         }
 
-        private void N()
+        private void H()
         {
             var o = new object();
             o.GetType();

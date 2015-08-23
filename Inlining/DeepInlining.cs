@@ -2,20 +2,20 @@
 {
     internal class DeepInlining
     {
-        public void M()
+        public void EP()
         {
             var o = new object();
             o.GetHashCode();
-            N(o);
+            H1(o);
         }
 
-        private void N(object o)
+        private void H1(object o)
         {
             o.GetType();
-            O(o);
+            H2(o);
         }
 
-        private void O(object o)
+        private void H2(object o)
         {
             o.ToString();
         }

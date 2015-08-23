@@ -2,14 +2,14 @@
 {
     public class SimpleCase
     {
-        public void M1()
+        public void EP1()
         {
             var o = new object();
             o.Equals(null);
-            M2(o);
+            H1(o);
         }
 
-        public void M2(object o)
+        public void H1(object o)
         {
             o.GetHashCode();
         }
