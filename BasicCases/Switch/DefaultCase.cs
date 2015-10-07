@@ -1,4 +1,4 @@
-﻿namespace Inlining.BasicStructures.Switch
+﻿namespace BasicCases.Switch
 {
     internal class DefaultCase
     {
