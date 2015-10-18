@@ -40,8 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Break.cs" />
+    <Compile Include="Casting\As.cs" />
+    <Compile Include="Casting\Cast.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Switch\DefaultCase.cs" />
+    <Compile Include="Unchecked\Expression.cs" />
+    <Compile Include="Unchecked\Statement.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
