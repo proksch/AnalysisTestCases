@@ -45,6 +45,7 @@
     <Compile Include="LambdaExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Switch\DefaultCase.cs" />
+    <Compile Include="ResolvingFullyQualifiedTypes.cs" />
     <Compile Include="Unchecked\Expression.cs" />
     <Compile Include="Unchecked\Statement.cs" />
   </ItemGroup>
