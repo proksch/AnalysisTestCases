@@ -26,7 +26,16 @@ namespace BasicCases
 
         public void RegularFieldAccess()
         {
-           var x = new R().F.F;
+            var x = new R().F.F;
+            new R().M().M();
+            new R().P.P.M();
+        }
+
+
+        public void FullyQualifiedMethodReference()
+        {
+            Action x = SomeNamespace.SomeClass.M;
+            
         }
         
         public void FullyQualifiedPropertyAccess()
@@ -43,6 +52,13 @@ namespace BasicCases
     internal class R
     {
         public R F;
+
+        public R P { get; set; }
+
+        public R M()
+        {
+            return null;
+        }
     }
 }
 
