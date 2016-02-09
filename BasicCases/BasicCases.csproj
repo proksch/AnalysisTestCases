@@ -43,6 +43,7 @@
     <Compile Include="Break.cs" />
     <Compile Include="Casting\As.cs" />
     <Compile Include="Casting\Cast.cs" />
+    <Compile Include="ConstDeclarations.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="Indexer.cs" />
     <Compile Include="LambdaExpression.cs" />
