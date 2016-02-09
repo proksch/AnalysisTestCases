@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inlining", "Inlining\Inlini
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCases", "BasicCases\BasicCases.csproj", "{F1553783-5570-4AD9-8B71-D7545F9A77AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printing", "Printing\Printing.csproj", "{106B0503-E4FA-4F8F-A56D-98350A17DBC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F1553783-5570-4AD9-8B71-D7545F9A77AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1553783-5570-4AD9-8B71-D7545F9A77AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1553783-5570-4AD9-8B71-D7545F9A77AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106B0503-E4FA-4F8F-A56D-98350A17DBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106B0503-E4FA-4F8F-A56D-98350A17DBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106B0503-E4FA-4F8F-A56D-98350A17DBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106B0503-E4FA-4F8F-A56D-98350A17DBC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
