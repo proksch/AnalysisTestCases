@@ -45,8 +45,10 @@
     <Compile Include="Casting\Cast.cs" />
     <Compile Include="ConstDeclarations.cs" />
     <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Generics.cs" />
     <Compile Include="Indexer.cs" />
     <Compile Include="LambdaExpression.cs" />
+    <Compile Include="MethodHierarchies.cs" />
     <Compile Include="ObjectInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropertyDeclarations.cs" />
