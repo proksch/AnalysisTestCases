@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F1553783-5570-4AD9-8B71-D7545F9A77AF}</ProjectGuid>
+    <ProjectGuid>{1D5D89D6-3B33-495B-808D-9A988D4142D5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BasicCases</RootNamespace>
-    <AssemblyName>BasicCases</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>DemoTest</RootNamespace>
+    <AssemblyName>DemoTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,10 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,30 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arrays.cs" />
-    <Compile Include="BinaryExpression.cs" />
-    <Compile Include="BlubbTest.cs" />
-    <Compile Include="Break.cs" />
-    <Compile Include="Casting\As.cs" />
-    <Compile Include="Casting\Cast.cs" />
-    <Compile Include="ConstDeclarations.cs" />
-    <Compile Include="Delegates.cs" />
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="Generics.cs" />
-    <Compile Include="Indexer.cs" />
-    <Compile Include="LambdaExpression.cs" />
-    <Compile Include="MethodHierarchies.cs" />
-    <Compile Include="ObjectInitializer.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertyDeclarations.cs" />
-    <Compile Include="SteeringExamples.cs" />
-    <Compile Include="Switch\DefaultCase.cs" />
-    <Compile Include="ResolvingFullyQualifiedTypes.cs" />
-    <Compile Include="Unchecked\Expression.cs" />
-    <Compile Include="Unchecked\Statement.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
+using NUnit.Framework;
 
 namespace BasicCases
 {
-    class SteeringExamples
+    internal class SteeringExamples
     {
-
         public void M()
         {
-            
-            if (Equals(null))
-            {
-                object.Equals()
-            }
+            var sb = new StringBuilder();
+            sb.Append("");
+            Assert.AreEqual("", "");
         }
     }
 }
