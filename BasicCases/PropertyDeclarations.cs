@@ -14,5 +14,7 @@
             get { return 1; }
             set { var i = value; }
         }
+        
+        /* $ */
     }
 }

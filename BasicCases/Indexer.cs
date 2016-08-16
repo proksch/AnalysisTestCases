@@ -3,12 +3,14 @@
     public class IndexedNumber
     {
         public int[] Nums = new int[100];
-
+        
         public int this[int p]
         {
             get { return Nums[p]; }
             set { Nums[p] = value; }
         }
+        
+        /* $ */
     }
 
     internal class Client

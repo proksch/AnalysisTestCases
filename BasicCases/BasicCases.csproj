@@ -55,6 +55,7 @@
     <Compile Include="Generics.cs" />
     <Compile Include="Indexer.cs" />
     <Compile Include="LambdaExpression.cs" />
+    <Compile Include="MemberInitializations.cs" />
     <Compile Include="MethodHierarchies.cs" />
     <Compile Include="ObjectInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="ResolvingFullyQualifiedTypes.cs" />
     <Compile Include="Unchecked\Expression.cs" />
     <Compile Include="Unchecked\Statement.cs" />
+    <Compile Include="VariousTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

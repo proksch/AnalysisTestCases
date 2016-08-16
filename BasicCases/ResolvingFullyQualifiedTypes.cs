@@ -30,8 +30,7 @@ namespace BasicCases
             new R().M().M();
             new R().P.P.M();
         }
-
-
+        
         public void FullyQualifiedMethodReference()
         {
             Action x = SomeNamespace.SomeClass.M;
